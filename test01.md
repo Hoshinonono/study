@@ -1,6 +1,6 @@
 layout: page
-title: test01.md
-permalink: https://hoshinonono.github.io/study/
+title: "PAGE-TITLE"
+permalink: /URL-PATH
 
 # テスト用
 
