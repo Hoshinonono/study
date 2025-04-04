@@ -1,5 +1,5 @@
 layout: page
-title: "PAGE-TITLE"
+title: test01.md
 permalink: /https://hoshinonono.github.io/study/
 
 # テスト用
