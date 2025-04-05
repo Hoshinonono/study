@@ -28,23 +28,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        
-      - name: Python セットアップ
-        uses: actions/setup-python@v3
-        with:
-          python-version: '3.x'
-          
-      - name: index.md を生成
-        run: python generate_index.py
-
-      - name: 変更をコミット & プッシュ
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/index.md
-          git commit -m "Update index automatically" || echo "No changes to commit"
-          git push
-          
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
