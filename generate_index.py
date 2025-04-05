@@ -35,8 +35,9 @@ def generate_index(path):
         if os.path.isdir(os.path.join(path, folder)) and (not folder in ban_list):
             depth += 1
             content += "#" * depth
-            content += f" {folder}\n\n"
-            generate_index(path + "/" + folder)
+            folder_path = path + "/" + folder
+            content += f" {folder_path[3:]}\n\n"
+            generate_index(folder_path)
             depth -= 1
     
     content += "\n"
