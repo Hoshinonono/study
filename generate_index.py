@@ -7,7 +7,7 @@ INDEX_FILE = "index.md"
 depth = int(2)
 
 # フォルダ名かファイル名が以下に一致するものは探索を禁止する
-ban_list = ['.github', 'README.md']
+ban_list = ['index.md', 'README.md', '.github', '.git']
 
 # index.mdに書き込む内容をcontentに追加する
 content = "# Documentation Index\n\n"
