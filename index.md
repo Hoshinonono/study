@@ -1,6 +1,7 @@
 # Documentation Index
 
-[![GitHub Pepository](https://img.shields.io/static/v1?label=GitHub+Pepository&message=+&color=FC02FF&logo=github)](https://github.com/Hoshinonono/study)
+[<img src="https://img.shields.io/github/last-commit/Hoshinonono/study">](https://hoshinonono.github.io/study)
+
 目次は自動生成です。
 
 # Contents
