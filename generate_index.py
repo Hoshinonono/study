@@ -1,5 +1,6 @@
 import os
 
+MARKDOWN_DIR = "./"
 INDEX_FILE = "index.md"
 
 def generate_index():
