@@ -1,7 +1,6 @@
 import os
 
-MARKDOWN_DIR = "docs"
-INDEX_FILE = os.path.join(MARKDOWN_DIR, "index.md")
+INDEX_FILE = "index.md"
 
 def generate_index():
     """docs フォルダ内の Markdown ファイルを一覧表示する index.md を生成"""
