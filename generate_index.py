@@ -12,7 +12,7 @@ ban_list = ['index.md', 'README.md', '.github', '.git']
 
 # index.mdに書き込む内容をcontentに追加する
 content = "# Documentation Index\n\n"
-content += "[<img src=\"https://img.shields.io/github/last-commit/Hoshinonono/study\">](https://hoshinonono.github.io/study)\n\n"
+content += "[<img src=\"https://img.shields.io/github/last-commit/Hoshinonono/study\">](https://github.com/Hoshinonono/study)\n\n"
 content += "目次は自動生成です。\n\n"
 content += "# Contents\n\n"
 
