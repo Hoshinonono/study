@@ -1,6 +1,6 @@
 # Documentation Index
 
-[<img src="https://img.shields.io/github/last-commit/Hoshinonono/study">](https://hoshinonono.github.io/study)
+[<img src="https://img.shields.io/github/last-commit/Hoshinonono/study">](https://github.com/Hoshinonono/study)
 
 目次は自動生成です。
 
