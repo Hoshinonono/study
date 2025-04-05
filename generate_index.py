@@ -9,6 +9,9 @@ def generate_index():
     files.sort()  # アルファベット順にソート
 
     index_content = "# Documentation Index\n\n"
+    
+    index_content += "[![GitHub Pepository](https://img.shields.io/static/v1?label=GitHub+Pepository&message=+&color=FC02FF&logo=github)](https://github.com/Hoshinonono/study)\n\n";
+    index_content += "目次は自動生成です。\n\n"
     index_content += "## Pages\n\n"
 
     for file in files:
