@@ -4,12 +4,12 @@
 
 目次は自動生成です。
 
-## Pages
+# Contents
 
-- [Test02](.//test02.md)
-- [Test01](.//test01.md)
-### docs
+- [Test01](./test01.md)
+- [Test02](./test02.md)
+
+## docs
 
 - [Test03](.//docs/test03.md)
-
 
