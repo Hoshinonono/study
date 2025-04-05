@@ -35,7 +35,7 @@ jobs:
           python-version: '3.x'
           
       - name: index.md を生成
-        run: python generate_index.py
+        run: python .github/generate_index.py
 
       - name: 変更をコミット & プッシュ
         run: |
